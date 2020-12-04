@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "BlurHash"
+  s.name             = "BlurHashDecode"
   s.version          = "1.0.0"
   s.summary          = "BlurHash decoding library."
   s.description      = "BlurHash is a compact representation of a placeholder for an image."
@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.platforms     = { :ios => "12.0" }
   s.source        = { :git => "https://github.com/ku8ar/blurhash.git" }
-  s.source_files = "BlurHash/**/*.{h,m,swift}"
+  s.source_files = "BlurHashDecode/**/*.{h,m,swift}"
   s.frameworks = "UIKit"
 end
