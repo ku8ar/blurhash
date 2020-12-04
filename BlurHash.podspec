@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = "BlurHash"
   s.version          = "1.0.0"
-  s.summary          = "BlurHash is a compact representation of a placeholder for an image."
-  s.description      = "BlurHash lib"
+  s.summary          = "BlurHash decoding library."
+  s.description      = "BlurHash is a compact representation of a placeholder for an image."
   s.homepage         = "https://github.io/ku8ar/blurhash"
   s.license          = "MIT"
   s.author           = { "Wolt Enterprises" => "support@wolt.com" }
