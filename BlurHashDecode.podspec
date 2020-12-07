@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/ku8ar/blurhash.git" }
   s.source_files = "BlurHashDecode/**/*.{h,m,swift}"
   s.frameworks = "UIKit"
+  s.static_framework = true
 end
